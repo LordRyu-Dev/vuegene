@@ -1,0 +1,8 @@
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  max-width:32rem;
+}
