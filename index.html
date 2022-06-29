@@ -55,6 +55,8 @@
     <label for="yasumi">盛りあった次の日は何の日か</label>
     <input type="text" v-model="yasumi">
     <h2>登場人物</h2>
+    <label for="age">登場人物の数値</label>
+    <input type="text" v-mode-="age">
     <h3>浮浪者のおっさん</h3>
     <label for="furousha">職業</label>
     <input type="text" v-model="furousha">
@@ -161,8 +163,8 @@
       <p>
         やった{{ ze }}　投稿者：{{ author }} ({{ month }}月{{ day }}日（{{ dow }}）{{ hour }}時{{ minute }}分{{ second }}秒) <br><br>
 
-        {{ yesterday }}の{{ yMonth }}月{{ yDay }}日にいつもの{{ furousha }}の{{ ossan }}（{{ ossanAge }}歳）と先日{{ send }}くれた{{ like }}好きの{{ dokata }}の{{ niichan }}<br>
-        （{{ niichanAge }}歳）と{{ me }}（{{ meAge }}歳）の3人で{{ kenboku }}にある{{ underLiver }}で盛りあった{{ ze }} <br>
+        {{ yesterday }}の{{ yMonth }}月{{ yDay }}日にいつもの{{ furousha }}の{{ ossan }}（{{ ossanAge }}{{ age }}）と先日{{ send }}くれた{{ like }}好きの{{ dokata }}の{{ niichan }}<br>
+        （{{ niichanAge }}{{ age }}）と{{ me }}（{{ meAge }}{{ age }}）の3人で{{ kenboku }}にある{{ underLiver }}で盛りあった{{ ze }} <br>
         今日は{{ asu }}が{{ yasumi }}{{ nande }}{{ konbini }}で{{ sake }}と{{ tsumami }}を買ってから滅多に{{ hito }}が来ない所{{ nande }}、<br>
         そこでしこたま{{ sake }}を{{ nonde }}からやりはじめたん{{ ya }} <br>
         3人で{{ chinpo }}{{ nameru }}あいながら{{ dikatabi }}だけになり持って来た{{ ichidiku }}を{{ sanbon }}ずつ入れあっ{{ ta }} <br>
