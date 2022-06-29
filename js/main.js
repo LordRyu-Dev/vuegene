@@ -23,6 +23,7 @@ const app = Vue.createApp({
     asu: '明日',
     yasumi: '休み',
     age: '歳',
+    nin:'人',
     furousha: '浮浪者',
     ossan: 'おっさん',
     ossanAge: '60',
